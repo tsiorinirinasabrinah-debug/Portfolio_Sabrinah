@@ -1,8 +1,8 @@
 
+
 body{
-   
-    margin: 0;
     overflow-x: hidden;
+    margin: 0;
 }
 header{
     position: sticky;
@@ -41,8 +41,9 @@ nav:active{
     align-items: center;
     margin-top: 0;
     width: 80%;
-    height: 80vh;
-    padding: 0;
+    height: 100vh;
+    padding-top: 0;
+    margin: 0;
 }
 img{
     width: 30%;
@@ -187,7 +188,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     font-size: 1.5vw;
-    padding: 40px 1.5vw;
+    padding: 1.5vw;
 }
 #about{
     background-color: whitesmoke;
@@ -291,6 +292,30 @@ footer{
     gap: 20px;
     flex-direction: column-reverse;
 }
+}
+@media(max-width:740px){
+    .formulaire{
+    background-color: #75162E;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eec3cd;
+    
+}
+    .cadre{
+        background-color: #3B0510;
+    border-radius: 50px 0 50px 0;
+    height: 20vh;
+    padding: 30px 10px;
+    color: rgb(224, 143, 154);
+    width: 70%;
+    box-shadow: 0 8px 16px rgba(0,0,0.1);
+    cursor: pointer;
+    justify-content: center;
+    font-size: 0.7rem;
+    }
 }
 
 
